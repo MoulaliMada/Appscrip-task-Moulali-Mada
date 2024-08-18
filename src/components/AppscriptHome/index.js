@@ -1,12 +1,16 @@
-import { Component } from "react"
+import { Component } from "react";
+import Strip from "../Strip";
+import NavBar from "../NavBar";
+import "./index.css";
 
-class AppscriptHome extends Component{
-    render(){
-        return(
-            <div>
-                <h1>hello AppScript</h1>
-            </div>
-        )
-    }
+class AppscriptHome extends Component {
+  render() {
+    return (
+      <div>
+        <Strip />
+        <NavBar />
+      </div>
+    );
+  }
 }
-export default AppscriptHome
+export default AppscriptHome;

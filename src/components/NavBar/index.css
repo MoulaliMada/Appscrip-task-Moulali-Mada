@@ -1,0 +1,88 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: white;
+}
+
+.navbar-toggler {
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    display: none; /* Hidden by default */
+    padding-right: 20px;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-links {
+    color: black;
+    font-size: 18px;
+}
+
+.navbar-container{
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-logo{
+    color: #000000;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.navbar-icon{
+    margin-left: 10px;
+   font-size: 20px;
+}
+
+.navbar-items-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-logo-img{
+    width: 25px;
+}
+
+.navbar-link{
+    margin: 0px;
+    color: white;
+    font-size: 15px;
+}
+.hr-line{
+    margin-top: 0px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-toggler {
+        display: block; /* Show the toggler button on small screens */
+    }
+
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: gray;
+        position: absolute;
+        top: 100px;
+        padding-left: 20px;
+        margin-right: 50px;
+        margin: 30px;
+        right: 0px;
+        left: 0px;
+        padding: 20px;
+        width: 300px;
+        border-radius: 20px;
+
+    }
+
+    .navbar-links.open {
+        display: flex; /* Show links when toggler is clicked */
+    }
+}

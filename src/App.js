@@ -1,10 +1,10 @@
-import AppscriptHome from './components/AppscriptHome'
-import './App.css';
+import AppscriptHome from "./components/AppscriptHome";
+import "./App.css";
 
 function App() {
   return (
     <div>
-       <AppscriptHome/>
+      <AppscriptHome />
     </div>
   );
 }

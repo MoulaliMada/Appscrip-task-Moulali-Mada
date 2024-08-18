@@ -1,0 +1,22 @@
+.strip-bgcontainer{
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.strip-color{
+    color: #EB4C6B;
+    font-size: 12px;
+}
+.strip-text-container{
+    display: flex;
+    align-items: center;
+}
+.strip-logo{
+    width: 16px;
+    margin-right: 12px;
+}
+.displaying{
+    display: none;
+}
